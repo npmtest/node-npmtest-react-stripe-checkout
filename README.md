@@ -1,6 +1,6 @@
 # npmtest-react-stripe-checkout
 
-#### test coverage for  [react-stripe-checkout (v2.2.5)](https://github.com/azmenak/react-stripe-checkout)  [![npm package](https://img.shields.io/npm/v/npmtest-react-stripe-checkout.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-stripe-checkout) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-stripe-checkout.svg)](https://travis-ci.org/npmtest/node-npmtest-react-stripe-checkout)
+#### basic test coverage for  [react-stripe-checkout (v2.2.5)](https://github.com/azmenak/react-stripe-checkout)  [![npm package](https://img.shields.io/npm/v/npmtest-react-stripe-checkout.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-stripe-checkout) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-stripe-checkout.svg)](https://travis-ci.org/npmtest/node-npmtest-react-stripe-checkout)
 
 #### Easily inject checkout.js as a react component. Will load the script on demand and supports all the options from stripe docs.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-stripe-checkout/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-react-stripe-checkout/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-react-stripe-checkout/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-react-stripe-checkout/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-stripe-checkout/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-stripe-checkout/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-react-stripe-checkout/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-react-stripe-checkout/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-stripe-checkout/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-stripe-checkout/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-react-stripe-checkout/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-react-stripe-checkout/build/coverage.html/index.html)
 
@@ -176,7 +176,8 @@
         "version": "npm run build",
         "watch": "babel StripeCheckout.js --out-file ./dist/main.js --source-maps inline --watch"
     },
-    "version": "2.2.5"
+    "version": "2.2.5",
+    "bin": {}
 }
 ```
 
